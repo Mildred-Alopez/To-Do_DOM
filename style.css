@@ -5,13 +5,13 @@
 }
 
 body {
-    background-image: url(./img/fondo\ noche.avif);
+    background-image: url(./assets/img/FondoNoche.avif);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
-.centrar_container {
+.centrar-container {
     margin-top: 10%;
 }
 
@@ -25,14 +25,18 @@ body {
     margin: 0 auto;
 }
 
-.cursor_icono-trash {
+.trash-icono_cursor {
     cursor: pointer;
 }
 
-.color_icono-check {
+.check-icono_color {
     color: orange;
 }
 
-.color_icono-check:hover {
+.check-icono_color:hover {
     color: greenyellow;
+}
+
+.clock-icono_size {
+    font-size: 12px;
 }
