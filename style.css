@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./img/fondo\ noche.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.centrar_container {
+    margin-top: 10%;
+}
+
+.linea-divisora {
+    color: white;
+
+}
+
+.size-cards {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.cursor_icono-trash {
+    cursor: pointer;
+}
+
+.color_icono-check {
+    color: orange;
+}
+
+.color_icono-check:hover {
+    color: greenyellow;
+}
